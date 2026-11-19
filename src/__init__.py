@@ -10,6 +10,7 @@ from .data_loader import (
     parse_genres,
 )
 from .popularity_recommender import recommend_popular
+from .content_recommender import recommend_similar
 
 __all__ = [
     "load_and_merge",
@@ -18,4 +19,5 @@ __all__ = [
     "compute_movie_stats",
     "parse_genres",
     "recommend_popular",
+    "recommend_similar",
 ]

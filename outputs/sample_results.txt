@@ -1,5 +1,5 @@
 MyNextMovie Sample Execution Log
-Timestamp: 2026-11-19 22:35:38
+Timestamp: 2026-11-19 22:38:23
 Saving sample logs to: D:\MyNextMovie\outputs\sample_results.txt
 
 
@@ -42,21 +42,3 @@ Saving sample logs to: D:\MyNextMovie\outputs\sample_results.txt
        2      Jumanji (1995)                    [Adventure, Children, Fantasy]            0.0000
 
 Sample execution completed successfully.
-
-======================================================================
- POPULARITY-BASED RECOMMENDATIONS
- Filter: genre='Action', min_ratings=1, top_n=3
-======================================================================
- movieId               title                        genres  mean_rating  rating_count
-       6         Heat (1995)     [Action, Crime, Thriller]          4.5             3
-      10    GoldenEye (1995) [Action, Adventure, Thriller]          4.5             2
-       9 Sudden Death (1995)                      [Action]          2.5             1
-
-======================================================================
- CONTENT-BASED RECOMMENDATIONS
- Target Movie: 'Heat (1995)', top_n=3
-======================================================================
- movieId               title                                            genres  similarity_score
-      10    GoldenEye (1995)                     [Action, Adventure, Thriller]            0.6477
-       9 Sudden Death (1995)                                          [Action]            0.4988
-       1    Toy Story (1995) [Adventure, Animation, Children, Comedy, Fantasy]            0.0000
